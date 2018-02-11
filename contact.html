@@ -2,9 +2,8 @@
 <html lang="en-us">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <title>About | Your Name</title>
+  <title>Contact | Pranav Udayakumar</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -24,14 +23,26 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="assets/images/no-avatar.jpg" class="auth-image" alt="Your Name">
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-      <p> Hello, my name is Pranav Udayakumar. I am a recent college graduate from Virginia Commonwealth University.
-      I worked at Wells Fargo this past year. I recently left that position to focus on Web Development. I recently
-      enrolled in the University of Richmond Coding bootcamp. I am interested in Web Development,I am currently 
-      working on improving my portfolio. I am ready to face all the fun challenges ahead! </p>
     </section>
 
     <section class="sidebar">
